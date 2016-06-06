@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+        Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+        For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://r.zipformplus.com https://s.zipformonline.com https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+
+
+    <link href="css/index.css" rel="stylesheet" />
+    <link href="css/jquery.mobile-1.4.5.css" rel="stylesheet" />
+
+    <link href="css/bootstrap.css" rel="stylesheet" />
+
+    <script src="scripts/jquery-2.2.3.js"></script>
+    <script src="scripts/jquery.mobile-1.4.5.js"></script>
+    <script src="scripts/bootstrap.js"></script>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/platformOverrides.js"></script>
+
+
+    <title>Demo</title>
+</head>
+<body data-theme="a">
+
+    <!-- Start of first page: #one -->
+
+    <div data-role="page" id="one">
+        <!-- /header -->
+        <div data-role="header">
+            <h1>User credentials</h1>
+        </div>
+
+        <!-- content -->
+        <div data-role="content" id="onecontent">
+           test ertewtetewtewt ew
+ 
+        </div>
+
+
+        <div data-position="fixed" data-role="footer" id="onefooter">
+            <div data-role="navbar">
+                <ul>
+                    <li id="btnCredentials">
+                        <a data-icon="user">Credentials</a>
+                    
+                    </li>
+                    <li id="btnloadZipform">
+                        <a data-icon="user">Zipforms Mobile</a>
+                     
+                    </li>
+
+
+                    <li id="btnResources">
+                        <a data-icon="info">Resources</a>
+                      
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div data-role="page" id="credentials">
+        <!-- /header -->
+        <div data-role="header">
+            <h1>User credentials</h1>
+        </div>
+ 
+        <!-- content -->
+        <div data-role="content" id="contentusercredentials">
+            <form data-ajax="false">
+                <fieldset data-role="controlgroup" data-mini="true" class="ui-radio-on">
+                 
+                    <table style="width:100%;">
+                        <tr>
+                            <td><input type="radio" name="radio-choice-v-6" id="radio-choice-v-6a" value="1" checked="checked"></td>
+                            <td><label for="radio-choice-v-6a">Use zipForm credentials</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="radio-choice-v-6" id="radio-choice-v-6b" value="2"></td>
+                            <td><label for="radio-choice-v-6b">Use C.A.R. credentials</label></td>
+                        </tr>
+                        <!--<tr>
+                            <td><input type="radio" name="radio-choice-v-6" id="radio-choice-v-6c" value="3"></td>
+                            <td><label for="radio-choice-v-6c">Use Other credentials</label></td>
+                        </tr>-->
+                    </table>
+                </fieldset>
+                <br />
+                <br />
+                <label>Username</label>
+                <input name="username" type="text" placeholder="Username" id="username">
+                <input name="email" type="text" placeholder="Email" id="email">
+                <button id="getcredentials" data-role="button" >Save</button>
+                <button id="clear" data-role="button">Clear</button>
+                <button id="clearlocalstorage">Clear storage</button>
+                <button id="goHome">Zipform Mobile</button>
+            </form>
+            <div id="alert"> </div>
+        </div>
+
+
+      
+    </div>
+</body>
+</html>
