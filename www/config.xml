@@ -6,7 +6,7 @@
   
   
   <content src="index.html" />
-  <access origin="https://r.zipformplus.com" />
+  <access origin="https://google.com" />
   
   <vs:features />
   <preference name="SplashScreen" value="screen" />
@@ -23,7 +23,7 @@
   <allow-intent href="geo:*" />
   
   
-  <allow-navigation href="https://r.zipformplus.com" />
+  <allow-navigation href="google.com" />
   
   
   <platform name="android">
