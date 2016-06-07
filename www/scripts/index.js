@@ -170,12 +170,12 @@
         var typeofcredential = window.localStorage.getItem('typeofcredential');
         //for production
 
-        var targetUrl = "https://m.zipformonline.com/login.aspx?usr=" + user + "&pwd=" + email + "&assoc=" + typeofcredential;
+        var targetUrl = "https://google.com/login.aspx?usr=" + user + "&pwd=" + email + "&assoc=" + typeofcredential;
         window.location.href = targetUrl;
 
 
         //for QA
-        // targetUrl = "https://q.zipformonline.com/login.aspx?usr="+ user +"&pwd="+ email +"&assoc=" +typeofcredential;
+        // targetUrl = "https://google.com/login.aspx?usr="+ user +"&pwd="+ email +"&assoc=" +typeofcredential;
         //window.location.replace(targetUrl);
 
 
