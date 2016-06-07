@@ -28,16 +28,16 @@
         //alert("OnDeviceReady fired.");
 
         // from in -app browser, you don't have access to native API.
-        // window.open("https://s.zipformonline.com");
-        // var ref = cordova.InAppBrowser.open("https://r.zipformplus.com", '_blank', 'location=no');
+      
+        // var ref = cordova.InAppBrowser.open("https://google.com", '_blank', 'location=no');
         // window.open = cordova.InAppBrowser.open;
 
 
         //6/1
-        //var targetUrl = "https://r.zipformplus.com";
+        //var targetUrl = "https://google.com";
         //window.location.replace(targetUrl);
 
-        //var targetUrl = "https://r.zipformplus.com";
+       
 
         //get the user name, email and option checked from local sotrage and replace the variables in this string before it loads.
         // alert("onDeviceReddy Invoked");
@@ -315,9 +315,9 @@
 //            });
 //        });
 
-//        // execute only when zipform  button is clicked
+//        // execute only when   button is clicked
 //        document.getElementById('Button1').addEventListener('click', function (e) {
-//            var targetUrl = "https:\\s.zipformonline.com";
+//            var targetUrl = "https:\\google.com";
 //            window.location.replace(targetUrl);
 //            return false;
 //        });
@@ -333,7 +333,7 @@
 //        });
 
 
-//        // execute only when zipform  button is clicked
+//        // execute only when   button is clicked
 //        document.getElementById('btnshowpopup').addEventListener('click', function (e) {
 //            alert("Popup");
 //        });
